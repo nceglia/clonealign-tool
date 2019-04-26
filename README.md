@@ -1,7 +1,7 @@
 # clonealign-tool
 Container for running clonealign.
 
-Github: [kieranrcampbell/clonealign] (https://github.com/kieranrcampbell/clonealign) <br/> 
+Github: [kieranrcampbell/clonealign](https://github.com/kieranrcampbell/clonealign) <br/> 
 Reference: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1645-z
 
 ### To run *cellassign* on saved RDS data. ###
