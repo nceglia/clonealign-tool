@@ -31,7 +31,5 @@ outputs:
   clone_align_assignments:
     type: File
     outputBinding:
-      glob: bamstats_report.zip
+      glob: cloneassignments.rdata
     doc: "RDS object that has clone to cell assignments."
-
-baseCommand: ["bash", "/usr/local/bin/bamstats"]
