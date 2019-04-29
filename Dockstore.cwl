@@ -14,7 +14,7 @@ dct:creator:
   foaf:mbox: "mailto:nickceglia@gmail.com"
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/collaboratory/nceglia/cellassign-tool:latest"
+    dockerPull: "quay.io/collaboratory/nceglia/clonealign-tool:latest"
 
 cwlVersion: v1.0
 
