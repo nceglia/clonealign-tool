@@ -16,13 +16,12 @@ requirements:
   - class: DockerRequirement
     dockerPull: "quay.io/collaboratory/nceglia/cellassign-tool:latest"
 inputs:
-  singlecellexperiment_object:
+  singlecellexperiment:
     type: File
     doc: "SingleCellExperiment object"
-    format: "https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html"
     inputBinding:
       position: 1
-  copy_number_variation_object:
+  copy_number_variation:
     type: File
     doc: "Copy number profiles for each clone and gene (where the genes **must** be the same as those measured in the expression data). This can be in the form of a `data.frame`, `DataFrame` or `matrix`"
     inputBinding:
@@ -31,5 +30,5 @@ outputs:
   clone_align_assignments:
     type: File
     outputBinding:
-      glob: cloneassignments.rdata
+      glob: clones.rdata
     doc: "RDS object that has clone to cell assignments."

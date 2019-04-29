@@ -1,0 +1,14 @@
+{
+  "singlecellexperiment": {
+    "path": "data/example_sce.rdata",
+    "class": "File"
+  },
+  "copy_number_variation": {
+    "path": "data/example_cnv.rdata",
+    "class": "File"
+  },
+  "clone_align_assignments": {
+    "path": "clones.rdata",
+    "class": "File"
+  }
+}
