@@ -3,7 +3,7 @@
 class: CommandLineTool
 id: "clonealign-tool"
 label: "clonealign-tool"
-cwlVersion: v1.0
+
 doc: |
     ![build_status](https://quay.io/repository/nceglia/clonealign-tool/status)
     A Docker container for the clonealign. See the [clonealign](https://github.com/kieranrcampbell/clonealign) website for more information.
@@ -15,6 +15,9 @@ dct:creator:
 requirements:
   - class: DockerRequirement
     dockerPull: "quay.io/collaboratory/nceglia/cellassign-tool:latest"
+
+cwlVersion: v1.0
+
 inputs:
   singlecellexperiment:
     type: File
@@ -32,3 +35,7 @@ outputs:
     outputBinding:
       glob: clones.rdata
     doc: "RDS object that has clone to cell assignments."
+
+$namespaces:
+  dct: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
