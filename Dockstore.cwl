@@ -16,6 +16,7 @@ requirements:
   - class: DockerRequirement
     dockerPull: "quay.io/nceglia/clonealign-tool:latest"
 
+
 cwlVersion: v1.0
 
 inputs:
@@ -26,14 +27,14 @@ inputs:
       position: 1
   copy_number_variation:
     type: File
-    doc: "Copy number profiles for each clone and gene (where the genes **must** be the same as those measured in the expression data). This can be in the form of a `data.frame`, `DataFrame` or `matrix`"
+    doc: "Copy number profiles for each clone and gene"
     inputBinding:
       position: 2
 outputs:
   clone_align_assignments:
     type: File
     outputBinding:
-      glob: clones.rdata
+      glob: "clones.rdata"
     doc: "RDS object that has clone to cell assignments."
 
 $namespaces:
