@@ -6,7 +6,7 @@ Github: [kieranrcampbell/clonealign](https://github.com/kieranrcampbell/cloneali
 Reference: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1645-z
 
 ### Run *clonealign* on saved RDS data. ###
- [Tutorial](https://github.com/kieranrcampbell/clonealign/blob/master/vignettes/introduction_to_clonealign.Rmd)
+ [Intro Vignette](https://github.com/kieranrcampbell/clonealign/blob/master/vignettes/introduction_to_clonealign.Rmd) <br>
     1. SingleCellExperiment object
     2. Copy Number Variation data - gene-by-clone matrix or data.frame
 
